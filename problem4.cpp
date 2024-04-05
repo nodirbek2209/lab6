@@ -45,7 +45,7 @@ int main() {
         
     }
     for(int i=0;i<out.size();i=i+2){
-        cout<<out[i]<<" "<<out[i+1]<<endl;
+        cout<<[out[i],out[i+1]]<<endl;
     }
     
     
