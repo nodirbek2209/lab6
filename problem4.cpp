@@ -39,13 +39,16 @@ int main() {
             out.push_back(arr[j+1]);
         }
         if (dif>abs(arr[j+1]-arr[j])){
+            dif=abs(arr[j+1]-arr[j]);
             out.clear();
+            out.push_back(arr[j]);
+            out.push_back(arr[j+1]);
             
         }
         
     }
     for(int i=0;i<out.size();i=i+2){
-        cout<<[out[i],out[i+1]]<<endl;
+        cout<<out[i]<<" "<<out[i+1]<<endl;
     }
     
     
